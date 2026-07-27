@@ -1,8 +1,28 @@
 aid: focal-point-procurement-solutions
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/focal-point-procurement-solutions.png
 name: Focal Point Procurement Solutions
-description: Focal Point Procurement Solutions is a company surfaced as a portfolio company of techstars
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Focal Point is an AI-powered procurement orchestration platform for enterprise procurement teams.
+  Founded in 2020 and headquartered in Atlanta, Georgia, the SaaS platform sits on top of a company's
+  existing S2P and ERP systems to centralize procurement data, intake, and workflows across six core
+  modules: Request Intake Management, Procurement Activity Management, Sourcing Event Management,
+  Supplier Relationship Management, Third-Party Risk Management, and Contract Lifecycle Management.
+  It connects existing systems and data via API integrations, automates tactical no-code workflows,
+  and provides total spend visibility, intelligent intake, and smart routing so procurement teams can
+  focus on strategic work. Focal Point does not currently publish a public developer API, OpenAPI
+  definition, or developer portal; integrations are delivered through the platform. This profile was
+  surfaced as a Techstars portfolio company and added to the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/focal-point-procurement-solutions/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Procurement
+- Source-to-Pay
+- Supplier Management
+- Contract Lifecycle Management
+- Third-Party Risk
+- Spend Management
+- Enterprise SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +49,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/focal-point-procurement-solutions-domain-security.yml
 - type: Website
   url: https://getfocalpoint.com/
+- type: Login
+  url: https://app.getfocalpoint.com/login
+- type: Blog
+  url: https://www.getfocalpoint.com/category/blogs/
+- type: PrivacyPolicy
+  url: https://www.getfocalpoint.com/privacy-policy/
+- type: Support
+  url: https://www.getfocalpoint.com/company/contact-us/
+- type: About
+  url: https://www.getfocalpoint.com/company/about-us/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

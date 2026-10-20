@@ -1,0 +1,24 @@
+edges:
+- partner_name: Coupa (own)
+  partner: coupa
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.coupa.com/apps/351531/focal-point-procurement-management
+  mirror_of: coupa/integrations/coupa-integration-edges.yml
+  apps:
+  - Focal Point Procurement Management
+  listing_count: 1
+  detected: '2026-10-20'
+  detected_by: mirror-platform-listings.py
+  category: Coupa app
+generated: '2026-10-20'
+method: searched
+source:
+- coupa/integrations/coupa-integration-edges.yml
+checked:
+- coupa/integrations/coupa-integration-edges.yml
